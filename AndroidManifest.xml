@@ -24,7 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ubuntukr.logintest.Login" >
+        <activity
+            android:name="com.ubuntukr.logintest.Login"
+            android:label="@string/title_activity_login" >
         </activity>
         <activity
             android:name="com.ubuntukr.logintest.Result"
